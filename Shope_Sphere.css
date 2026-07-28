@@ -374,8 +374,9 @@ main {
 
 .price-box i {
     margin-left: 50px;
+    color: rgb(88, 42, 132);
 }
-
+ 
 .current-price {
     font-size: 18px;
     color: #222;
@@ -475,7 +476,7 @@ main {
 }
 
 .footer-logo img {
-    width: 200px;
+    width: 150px;
 }
 
 .footer-about p {

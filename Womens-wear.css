@@ -174,19 +174,22 @@ main {
 }
 
 .collect-scroll {
-    width: 95%;
+   width: 95%;
     margin: 35px auto;
     display: flex;
+    flex-wrap: nowrap;         
     gap: 28px;
-    overflow-x: auto;
-    overflow-y: auto;
+    overflow-x: auto;          
+    overflow-y: hidden;
     scroll-behavior: smooth;
-    justify-items: center;
-    justify-content: center;
-    padding-bottom: 10px;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    padding: 10px 10px 20px 10px;
+    box-sizing: border-box;
+    scrollbar-width: none;    
 }
 
-.collect-scroll ::-webkit-scrollbar {
+.collect-scroll::-webkit-scrollbar {
     display: none;
 }
 
@@ -195,15 +198,16 @@ main {
 }
 
 .collection-card {
-    flex: 0 0 260px;
+   flex: 0 0 250px;            
     width: 250px;
     height: 380px;
     border: 1px solid #e4e4e4;
     border-radius: 10px;
     overflow: hidden;
     background: #fff;
-    transition: .3s;
+    transition: 0.3s;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .collection-card:hover {
@@ -386,7 +390,7 @@ main {
 .button-wrap .Buy {
     margin-top: 10px;
     width: 120px;
-    padding: 3px 3px;
+    padding: 4px 3px;
     color: white;
     font-size: 15px;
     font-weight: 500;

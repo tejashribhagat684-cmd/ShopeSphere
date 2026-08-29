@@ -134,3 +134,22 @@ html {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+main {
+    padding-top: 160px;
+}
+
+.Kids-Banner {
+    width: 95%;
+    height: 432px;
+    margin: auto;
+    border-radius: 12px;
+    border: 3px solid #D9A11B;
+}
+
+.Kids-Banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+}

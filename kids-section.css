@@ -322,6 +322,14 @@ main {
     background: linear-gradient(rgb(171, 226, 252), rgb(255, 255, 206));
 }
 
+#Toy-section {
+    width: 95%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 25px 40px;
+    background: linear-gradient(rgb(247, 210, 243), rgb(171, 226, 252));
+}
+
 
 .footer {
     margin-top: 30px;

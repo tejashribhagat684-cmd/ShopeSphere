@@ -159,7 +159,7 @@ main {
     padding-top: 3px;
     padding-bottom: 3px;
     margin: 25px 40px;
-    background: linear-gradient(rgb(248, 244, 200), rgb(255, 255, 206));
+    background: linear-gradient(rgb(253, 221, 189), rgb(255, 255, 206));
 }
 
 .head-wrap h3 {
@@ -312,5 +312,13 @@ main {
     background-color: rgb(88, 42, 132);
     border: none;
     cursor: pointer;
+}
+
+#Kitchen-Appliances{
+    width: 95%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 25px 40px;
+    background: linear-gradient(rgb(253, 221, 189), rgb(255, 255, 206));
 }
 

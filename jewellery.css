@@ -134,3 +134,22 @@ html {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+main {
+    padding-top: 165px;
+}
+
+.Jewellery-Banner {
+    width: 95%;
+    height: 480px;
+    margin: auto;
+    border-radius: 12px;
+    border: 3px solid #D9A11B;
+}
+
+.Jewellery-Banner img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 8px;
+}
